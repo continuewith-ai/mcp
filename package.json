@@ -1,6 +1,7 @@
 {
   "name": "@continuewith/mcp",
-  "version": "0.1.3",
+  "version": "0.1.4",
+  "mcpName": "io.github.continuewith-ai/continuewith",
   "description": "MCP server for installing the ContinueWith AI-native continuation layer from coding agents",
   "type": "module",
   "bin": {
@@ -9,7 +10,9 @@
   "files": [
     "bin",
     "src",
-    "README.md"
+    "README.md",
+    "server.json",
+    "glama.json"
   ],
   "scripts": {
     "test": "node --test test/*.test.mjs",

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.continuewith-ai/continuewith",
+  "title": "ContinueWith",
+  "description": "Install the ContinueWith AI handoff widget from coding agents (Cursor, Claude Code, Codex).",
+  "repository": {
+    "url": "https://github.com/continuewith-ai/mcp",
+    "source": "github"
+  },
+  "version": "0.1.4",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@continuewith/mcp",
+      "version": "0.1.4",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "LOOP_API_KEY",
+          "description": "Optional API key for Distribution Loop tools (loop_list_directories, loop_report_blocker, etc.).",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
