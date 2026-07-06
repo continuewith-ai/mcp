@@ -22,9 +22,16 @@
   "keywords": [
     "continuewith",
     "mcp",
+    "mcp-server",
+    "model-context-protocol",
     "cursor",
+    "claude",
+    "claude-code",
+    "windsurf",
+    "codex",
     "ai",
-    "widget"
+    "widget",
+    "ai-handoff"
   ],
   "license": "MIT",
   "repository": {
