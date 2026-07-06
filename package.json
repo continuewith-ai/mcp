@@ -1,0 +1,44 @@
+{
+  "name": "@continuewith/mcp",
+  "version": "0.1.3",
+  "description": "MCP server for installing the ContinueWith AI-native continuation layer from coding agents",
+  "type": "module",
+  "bin": {
+    "continuewith-mcp": "./bin/continuewith-mcp.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "zod": "^3.25.76"
+  },
+  "keywords": [
+    "continuewith",
+    "mcp",
+    "cursor",
+    "ai",
+    "widget"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuewith-ai/mcp.git"
+  },
+  "homepage": "https://continuewith.ai/docs/agents",
+  "bugs": {
+    "url": "https://github.com/continuewith-ai/mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
